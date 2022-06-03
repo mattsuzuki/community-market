@@ -14,11 +14,11 @@ app.use(logger('dev'));
 // Content-Type: 'application/json'
 // and put that data on req.body
 app.use(express.json());
-app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
+// app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'build')));
 
 //middleware that adds the user obhject from a jwt to req.user
-app.use(require('./config/checkToken'));
+// app.use(require('./config/checkToken'));
 
 // Put all API routes here (before the catch-all)
 app.use('/api/users', require('./routes/api/users'));
