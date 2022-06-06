@@ -152,3 +152,10 @@ button[type="submit"] {
 }
 
 .nav { background-color: grey;}
+
+form {
+flex-direction: column;
+display: flex;
+justify-content: center;
+padding: 10%;
+}
