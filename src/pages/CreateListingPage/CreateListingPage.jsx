@@ -1,26 +1,38 @@
 import { checkToken } from "../../utilities/users-service";
-import { useState } from 'react';
+import {  useNavigate } from "react-router-dom";
+import { useState  } from 'react';
 
 
 export default function CreateListingPage() { 
+    const navigate = useNavigate();
     const [fields, setFields] = useState({
         item_name: '',
         item_description:'',
         item_price:'',
     });
 
+    const handleSubmit = (e) => {
+        e.preventDefault(); 
+        //Ajax request 
+        navigate('/listings');
+    }
+
     const handleChange = (e) => {
         const value= e.target.value;
         const name= e.target.name;
-
+        
+        
         setFields({
             ...fields,
             [name]: value
         });
     };
-
+    
+    
     return (
-        <form>
+        <>
+        <h1>List an Item or Service for Sale</h1>
+        <form onSubmit={handleSubmit}>
             <input
             onChange={handleChange}
             name="item_name"
@@ -41,5 +53,6 @@ export default function CreateListingPage() {
             />
             <button type="Submit">Submit Listing</button>
         </form>
+        </>
     )
 } 
