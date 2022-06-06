@@ -10,7 +10,7 @@ export default function OrderHistoryPage() {
   return (
     <>
       <h1>OrderHistoryPage</h1>
-      <button onClick={handleCheckToken}>Check when my login expires</button>
+      {/* <button onClick={handleCheckToken}>Check when my login expires</button> */}
     </>
   );
 }
