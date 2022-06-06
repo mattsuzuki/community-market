@@ -15,7 +15,7 @@ export default function NavBar({ user, setUser }) {
     <nav>
       <Link to="/auth">Login|Sign up</Link>
       &nbsp; | &nbsp;
-      <Link to="/orders">Order History</Link>
+      <Link to="/newlisting">Create Listing</Link>
       &nbsp; | &nbsp;
       <Link to="/profile">Profile</Link>
       &nbsp; | &nbsp;
