@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
 import LandingPage from '../LandingPage/LandingPage';
+import ProfilePage from '../ProfilePage/ProfilePage';
 import Listings from '../Listings/Listings';
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
 import NavBar from '../../components/NavBar/NavBar';
@@ -22,6 +23,7 @@ function App() {
             <Route path="/listings" element={<Listings />} />
             <Route path="/orders" element={<OrderHistoryPage />} />
             <Route path="/auth" element={<AuthPage setUser={setUser} />} />
+            <Route path="/profile" element={<ProfilePage setUser={setUser} />} />
           </Routes>
         </>    
     </main>

@@ -1,6 +1,6 @@
 import { checkToken } from "../../utilities/users-service";
 
-export default function OrderHistoryPage() { 
+export default function ProfilePage() { 
   async function handleCheckToken() {
     const expDate = await checkToken();
     console.log(expDate);
