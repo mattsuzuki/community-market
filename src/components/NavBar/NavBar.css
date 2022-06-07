@@ -1,11 +1,4 @@
 nav {
-
+    background-color: grey; 
     padding: 2%;
-}
-
- a {
-    color: white;
-    text-decoration: none;
-    font-size: larger;
-    font-weight: 700;
 }

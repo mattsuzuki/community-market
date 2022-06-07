@@ -2,7 +2,6 @@ import { checkToken } from "../../utilities/users-service";
 import {  useNavigate } from "react-router-dom";
 import { useState  } from 'react';
 import { createListing } from "../../utilities/listings-api";
-import "./CreateListingPage.css";
 
 
 export default function CreateListingPage() { 
@@ -21,7 +20,6 @@ export default function CreateListingPage() {
         } catch {
 
         }
-        navigate("/listings", { replace: true });
       }
 
     const handleChange = (e) => {
