@@ -4,11 +4,16 @@
 
 .App {
   text-align: center;
+  background-image: url(./images/market.png);
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.container {
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {

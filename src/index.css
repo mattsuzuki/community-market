@@ -32,6 +32,8 @@ code {
 
 #root {
   height: 100%;
+  background-image: url('https://imgur.com/gallery/0ogiB0D');
+
 }
 
 .align-ctr {
@@ -79,9 +81,7 @@ code {
 
 .form-container {
   padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
-  border-radius: 1vmin;
+ 
 }
 
 p.error-message {
@@ -118,7 +118,7 @@ input:focus {
 
 button, a.button {
   margin: 1vmin;
-  padding: 1vmin;
+  padding: 2vmin;
   color: var(--white);
   background-color: var(--orange);
   font-size: 2vmin;
@@ -133,7 +133,7 @@ button, a.button {
 
 button.btn-sm {
   font-size: 1.5vmin;
-  padding: .6vmin .8vmin;
+  padding: 2vmin;
 }
 
 button.btn-xs {
@@ -151,11 +151,23 @@ button[type="submit"] {
   margin: 1vmin 0 0;
 }
 
-.nav { background-color: grey;}
+
 
 form {
 flex-direction: column;
 display: flex;
 justify-content: center;
 padding: 5%;
+}
+
+
+label {
+  color: white;
+  font-size: x-large;
+}
+
+span {
+  color: white;
+  text-shadow: 3px 2px 4px black;
+
 }
