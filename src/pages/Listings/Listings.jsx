@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getAll } from "../../utilities/listings-api";
+import ListingCard from "../../pages/ListingCard/ListingCard";
 
 export default function Listings() {
   const [listings, setListings] = useState([]);
@@ -13,7 +14,7 @@ export default function Listings() {
 
   return <div>
     {listings.map(function(listing){
-      return <h1>{listing.name}</h1>
+     return <ListingCard listing={listing} />
     })}
   </div>;
 }
