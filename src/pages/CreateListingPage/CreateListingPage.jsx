@@ -1,21 +1,26 @@
 import { checkToken } from "../../utilities/users-service";
 import {  useNavigate } from "react-router-dom";
 import { useState  } from 'react';
+import { createListing } from "../../utilities/listings-api";
 
 
 export default function CreateListingPage() { 
     const navigate = useNavigate();
     const [fields, setFields] = useState({
-        item_name: '',
-        item_description:'',
-        item_price:'',
+        name: '',
+        description:'',
+        price:'',
     });
 
-    const handleSubmit = (e) => {
-        e.preventDefault(); 
-        //Ajax request 
-        navigate('/listings');
-    }
+    const handleSubmit = async (evt) => {
+        evt.preventDefault();
+        try {
+          const listing = await createListing(fields)
+
+        } catch {
+
+        }
+      }
 
     const handleChange = (e) => {
         const value= e.target.value;
@@ -35,21 +40,21 @@ export default function CreateListingPage() {
         <form onSubmit={handleSubmit}>
             <input
             onChange={handleChange}
-            name="item_name"
+            name="name"
             placeholder="Enter Item"
-            value={fields.item_name}
+            value={fields.name}
             />
             <input
             onChange={handleChange}
-            name="item_description"
+            name="description"
             placeholder="Description"
-            value={fields.item_description}
+            value={fields.description}
             />
             <input
             onChange={handleChange}
-            name="item_price"
+            name="price"
             placeholder="price"
-            value={fields.item_price}
+            value={fields.price}
             />
             <button type="Submit">Submit Listing</button>
         </form>
