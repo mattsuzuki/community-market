@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import { signUp } from '../../utilities/users-service';
+import {  useNavigate } from "react-router-dom";
+
 
 export default class SignUpForm extends Component {
   state = {
@@ -12,8 +14,12 @@ export default class SignUpForm extends Component {
     error: ''
   };
 
+  
+
   handleSubmit = async (evt) => {
+    // const navigate = useNavigate();
     evt.preventDefault();
+    // navigate('/')
     try {
       const formData = { ...this.state };
       delete formData.confirm;

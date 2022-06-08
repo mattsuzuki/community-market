@@ -21,7 +21,7 @@ export default function CreateListingPage() {
         } catch {
 
         }
- 
+        
       }
 
     const handleChange = (e) => {
