@@ -2,7 +2,7 @@ const listing = require("../../models/listing");
 module.exports = {
   getAll,
   create,
-  delete: deleteListing
+
 };
 
 async function getAll(req, res) {
