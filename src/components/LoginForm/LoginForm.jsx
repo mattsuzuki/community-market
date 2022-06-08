@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import * as usersService from '../../utilities/users-service';
 
 export default function LoginForm({ setUser }) {
+  const navigate = useNavigate();
   const [credentials, setCredentials] = useState({
     email: '',
     password: ''
@@ -16,6 +18,7 @@ export default function LoginForm({ setUser }) {
   async function handleSubmit(evt) {
     // Prevent form from being submitted to the server
     evt.preventDefault();
+    navigate('/listings')
     try {
       // The promise returned by the signUp service method 
       // will resolve to the user object included in the
