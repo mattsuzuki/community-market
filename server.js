@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'build')));
 
 //middleware that adds the user obhject from a jwt to req.user
-// app.use(require('./config/checkToken'));
+app.use(require('./config/checkToken'));
 
 // Put all API routes here (before the catch-all)
 app.use('/api/users', require('./routes/api/users'));

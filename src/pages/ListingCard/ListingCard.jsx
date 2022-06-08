@@ -9,6 +9,7 @@ export default function ListingCard({listing}) {
         <h3>Item: {listing.name}</h3>
         <h3>Description: {listing.description}</h3>
         <h3>Price: ${listing.price}</h3>
+        <a href={`/profile/${listing.user}`}>Seller: {listing.user}</a>
         </div>
         </>
     )
