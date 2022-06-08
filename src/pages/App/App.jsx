@@ -23,7 +23,7 @@ function App() {
             <Route path="/listings" element={<Listings />} />
             <Route path="/newlisting" element={<CreateListingPage />} />
             <Route path="/auth" element={<AuthPage setUser={setUser} />} />
-            <Route path="/profile" element={<ProfilePage setUser={setUser} />} />
+            <Route path="/profile/:id" element={<ProfilePage  />} />
           </Routes>
         </>    
     </main>

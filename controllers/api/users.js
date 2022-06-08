@@ -1,11 +1,13 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const User = require('../../models/user');
+const user = require('../../models/user');
 
 module.exports = {
   create,
   login,
-  checkToken
+  checkToken,
+  getProfile
 };
 
 function checkToken(req, res) {
@@ -37,6 +39,12 @@ async function create(req, res) {
     res.status(400).json(err);
   }
 }
+
+async function getProfile(req, res) {
+  const user =  await User.findById(req.params.id)
+  res.send(user)
+}
+
 
 /*-- Helper Functions --*/
 function createJWT(user) {

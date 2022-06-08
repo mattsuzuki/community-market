@@ -17,8 +17,7 @@ export default function NavBar({ user, setUser }) {
       &nbsp; | &nbsp;
       <Link to="/newlisting">Create Listing</Link>
       &nbsp; | &nbsp;
-      <Link to="/profile">Profile</Link>
-      &nbsp; | &nbsp;
+ 
       <Link to="/listings">Listings</Link>
       { user &&
         <>

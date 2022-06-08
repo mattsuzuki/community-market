@@ -1,11 +1,8 @@
-div.listCard {
+.container{
 
-    border: 1px solid blue; 
-    grid-template-columns: 100px 50px 100px;
-    grid-template-rows: 80px auto 80px; 
-    column-gap: 10px;
-    row-gap: 15px;
-   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 2px solid white;
+    border-radius: 10px;
 }
-
 

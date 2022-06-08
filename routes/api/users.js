@@ -10,4 +10,6 @@ router.post('/', usersCtrl.create);
 // POST /api/users/login
 router.post('/login', usersCtrl.login);
 
+router.get('/profile/:id', usersCtrl.getProfile);
+
 module.exports = router;

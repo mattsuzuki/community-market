@@ -52,3 +52,8 @@ export function checkToken() {
   return usersAPI.checkToken()
     .then(dateStr => new Date(dateStr));
 }
+
+export function getProfile(userId) {
+  return usersAPI.getProfile(userId)
+   
+}
