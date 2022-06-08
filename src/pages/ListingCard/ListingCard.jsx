@@ -6,9 +6,9 @@ export default function ListingCard({listing}) {
         <>
         <div className="listCard">
         <h2>Item / Service</h2>
-        <h3>{listing.name}</h3>
-        <h3>{listing.description}</h3>
-        <h3>{listing.price}</h3>
+        <h3>Item: {listing.name}</h3>
+        <h3>Description: {listing.description}</h3>
+        <h3>Price: ${listing.price}</h3>
         </div>
         </>
     )

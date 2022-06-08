@@ -14,12 +14,14 @@ export default function CreateListingPage() {
 
     const handleSubmit = async (evt) => {
         evt.preventDefault();
+        navigate('/listings')
         try {
           const listing = await createListing(fields)
 
         } catch {
 
         }
+ 
       }
 
     const handleChange = (e) => {
