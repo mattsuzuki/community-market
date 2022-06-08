@@ -61,6 +61,7 @@ export default function CreateListingPage() {
             placeholder="price"
             value={fields.price}
             />
+            
             <button type="Submit">Submit Listing</button>
         </form>
         </>

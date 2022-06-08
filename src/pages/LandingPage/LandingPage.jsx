@@ -1,5 +1,4 @@
-import LoginForm from '../../components/LoginForm/LoginForm'
-import SignUpForm from '../../components/SignUpForm/SignUpForm'
+
 import './LandingPage.css'
 
 export default function LandingPage() {
@@ -8,7 +7,7 @@ export default function LandingPage() {
         <h1>Welcome to the Community Market</h1>
         <h2> A place to Buy or Sell Any Item or Service</h2>
         <h4>Feel Free to Sign up or Login to use all of our features</h4>
-
+        
     </>
  
     )
