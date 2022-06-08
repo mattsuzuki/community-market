@@ -10,6 +10,7 @@ export default function CreateListingPage() {
         name: '',
         description:'',
         price:'',
+        
     });
 
     const handleSubmit = async (evt) => {

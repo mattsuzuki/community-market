@@ -5,12 +5,14 @@ module.exports = {
 };
 
 async function getAll(req, res) {
-console.log("hello")
-  const listings = await listing.find({});
+  const listings = await listing.find({user: req.user._id});
   res.json(listings);
 }
 
 async function create(req, res) {
-  const newListing = await listing.create(req.body);
+  req.body.user = req.user._id; 
+  var listing = new Listing(req.body);
+  await listing.save()
+  // const newListing = await listing.create(req.body);
   res.json(newListing);
 }
