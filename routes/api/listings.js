@@ -4,7 +4,7 @@ const listingsCtrl = require('../../controllers/api/listings');
 const ensureLoggedIn = require('../../config/ensureLoggedIn');
 
 
-router.post('/', listingsCtrl.create);
+router.post('/', ensureLoggedIn, listingsCtrl.create);
 router.get('/', listingsCtrl.getAll);
 
 
