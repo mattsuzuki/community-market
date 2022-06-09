@@ -25,6 +25,7 @@ body {
   background-position: center;
   background-size: cover;
   padding: 2vmin;
+  min-height: 100vh;
  
 }
 
