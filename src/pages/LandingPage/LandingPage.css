@@ -1,4 +1,5 @@
 .landers {
-    color: white;
-    text-shadow: 3px 4px 4px black;
+    color: black;
+    text-shadow: 3px 4px 4px rgb(245, 245, 245);
+    font-size: xx-large;
 }

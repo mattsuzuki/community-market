@@ -19,15 +19,11 @@ async function create(req, res) {
   res.json(newListing);
 }
 
-function deleteListing(req, res, next) {
-  console.log('fuck')
-  listing.findOne({
-    "listings._id": req.params.id,
+async function deleteListing(req, res, next) {
+  await listing.findOneAndDelete({
+    _id: req.params.id,
     "listings.user": req.user._id,
-  }).then(function(listing) {
-    if (!listing) return res.redirect("/listings");
-    listing.remove(req.params.id)
-    res.json({message: 'deleted'})
-  })
+  }); 
+  res.json('deleted')
 }
 

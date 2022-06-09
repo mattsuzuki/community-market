@@ -17,9 +17,9 @@ export default class SignUpForm extends Component {
   
 
   handleSubmit = async (evt) => {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     evt.preventDefault();
-    // navigate('/')
+    navigate('/')
     try {
       const formData = { ...this.state };
       delete formData.confirm;

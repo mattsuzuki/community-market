@@ -16,5 +16,5 @@ export function createListing(listingData) {
 }
 
 export function deleteListing(id) {
-  return sendRequest(`${BASE_URL}/${id}`, 'Delete' );
+  return sendRequest(`${BASE_URL}/:${id}`, 'DELETE' );
 }

@@ -1,8 +1,9 @@
 .container{
 
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    border: 2px solid white;
+
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
