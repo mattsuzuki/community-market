@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAll } from "../../utilities/listings-api";
 import ListingCard from "../../pages/ListingCard/ListingCard";
+import { deleteListing } from "../../utilities/listings-api";
 
 export default function Listings() {
   const [listings, setListings] = useState([]);
@@ -12,9 +13,18 @@ export default function Listings() {
     getListings();
   }, []);
 
-  return <div>
-    {listings.map(function(listing){
-     return <ListingCard listing={listing} />
-    })}
-  </div>;
+  function handleDelete(id) {
+    deleteListing(id);
+    const newListings = listings.filter(function (listing) {
+      return listing._id != id;
+    });
+    setListings(newListings);
+  }
+  return (
+    <div>
+      {listings.map(function (listing) {
+        return <ListingCard listing={listing} handleDelete={handleDelete} />;
+      })}
+    </div>
+  );
 }

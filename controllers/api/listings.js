@@ -19,11 +19,12 @@ async function create(req, res) {
   res.json(newListing);
 }
 
-async function deleteListing(req, res, next) {
+async function deleteListing(req, res) {
   await listing.findOneAndDelete({
     _id: req.params.id,
     "listings.user": req.user._id,
   }); 
   res.json('deleted')
 }
+
 

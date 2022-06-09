@@ -2,7 +2,8 @@ import CreateListingPage from "../CreateListingPage/CreateListingPage";
 import { deleteListing } from "../../utilities/listings-api";
 import "./ListingCard.css";
 
-export default function ListingCard({listing}) { 
+
+export default function ListingCard({listing, handleDelete}) { 
 
     return (
         <>
@@ -14,10 +15,11 @@ export default function ListingCard({listing}) {
         <h3>Description: {listing.description}</h3>
         <h3>Price: ${listing.price}</h3>
         <a href={`/profile/${listing.user}`}>Seller: {listing.user}</a>
-        <button onClick={() => deleteListing(listing._id)}>DELETE</button>
+        <button onClick={() => handleDelete(listing._id)}>DELETE</button>
         </div>
         </div>
         </div>
         </>
     )
 }
+
