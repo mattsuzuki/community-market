@@ -63,7 +63,7 @@ export default function CreateListingPage() {
             value={fields.price}
             />
             
-            <button type="Submit">Submit Listing</button>
+            <button type="Submit" onClick={handleSubmit}>Submit Listing</button>
         </form>
         </>
     )
