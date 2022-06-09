@@ -14,3 +14,7 @@ export function getById(id) {
 export function createListing(listingData) {
   return sendRequest(BASE_URL, 'POST', listingData);
 }
+
+export function deleteListing(id) {
+  return sendRequest(`${BASE_URL}/${id}`, 'Delete' );
+}

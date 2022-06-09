@@ -21,10 +21,13 @@ export default function ProfilePage() {
   } else {
     return (
       <>
-        <h1>{user.name}</h1>
-        <h1>{user.phone}</h1>
-        <h1>{user.location}</h1>
-        <h1>{user.email}</h1>
+        <div className="profileDetails">
+          <h1>Seller Details</h1>
+          <h1>Name:   {user.name}</h1>
+          <h1>Phone Number:   {user.phone}</h1>
+          <h1>Location:  {user.location}</h1>
+          <h1>Email:  {user.email}</h1>
+        </div>
       </>
     );
   }};

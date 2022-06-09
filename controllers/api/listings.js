@@ -2,6 +2,7 @@ const listing = require("../../models/listing");
 module.exports = {
   getAll,
   create,
+  delete: deleteListing,
 
 };
 
@@ -16,5 +17,17 @@ async function create(req, res) {
   await newListing.save()
   // const newListing = await listing.create(req.body);
   res.json(newListing);
+}
+
+function deleteListing(req, res, next) {
+  console.log('fuck')
+  listing.findOne({
+    "listings._id": req.params.id,
+    "listings.user": req.user._id,
+  }).then(function(listing) {
+    if (!listing) return res.redirect("/listings");
+    listing.remove(req.params.id)
+    res.json({message: 'deleted'})
+  })
 }
 
