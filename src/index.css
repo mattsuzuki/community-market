@@ -98,8 +98,10 @@ form {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 1.25vmin;
-  color: var(--text-light);
-  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(76, 48, 186);
+  border-radius: 5px;
+  background-color: rgba(199, 193, 193, 0.457);
 }
 
 label {

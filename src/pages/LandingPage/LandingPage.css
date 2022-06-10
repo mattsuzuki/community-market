@@ -2,4 +2,11 @@
     color: black;
     text-shadow: 3px 4px 4px rgb(245, 245, 245);
     font-size: xx-large;
+    border: 2px solid rgb(76, 48, 186);
+    width: 70%;
+    margin-left: 30;
+    margin: 0 auto;
+    margin-top : 5%;
+    padding: 8%;
+    background-color: rgba(116, 116, 116, 0.543);
 }

@@ -23,7 +23,7 @@ export default function ProfilePage() {
     return (
       <>
         <div className="profileDetails">
-          <h1>Seller Details</h1>
+          <h1 className="sDetails">Seller Details</h1>
           <h1>Name:   {user.name}</h1>
           <h1>Phone Number:   {user.phone}</h1>
           <h1>Location:  {user.location}</h1>
