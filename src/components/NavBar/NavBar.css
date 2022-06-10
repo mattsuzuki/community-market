@@ -1,13 +1,19 @@
 nav {
  
     padding: 2%;
+    color: white;
+    text-shadow: 3px 4px 4px rgb(3, 3, 3);
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgba(190, 152, 152, 0.695);
+    margin-bottom: 30px;
+    border: 2px solid white;
+
 }
 
-a {
-    color: black;
-    text-shadow: 3px 4px 4px rgb(245, 245, 245);
+nav a {
     text-decoration: none;
-    font-size: x-large;
-    font-weight: bold;
-
+    color: white;
+    font-size: xx-large;
 }

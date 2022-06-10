@@ -11,6 +11,9 @@ export default function LandingPage() {
         <h2> A place to Buy or Sell Any Item or Service</h2>
         <h4>Feel Free to Sign up or Login to use all of our features</h4>
     </div> 
+    <div>
+        
+    </div>
     </>
  
     )

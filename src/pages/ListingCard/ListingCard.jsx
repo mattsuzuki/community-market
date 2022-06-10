@@ -14,7 +14,7 @@ export default function ListingCard({listing, handleDelete, allowDelete}) {
         <h3>Item: {listing.name}</h3>
         <h3>Description: {listing.description}</h3>
         <h3>Price: ${listing.price}</h3>
-        <a href={`/profile/${listing.user}`}>Seller: {listing.user}</a>
+        <a href={`/profile/${listing.user}`}>Contact Seller: {listing.user}</a>
         {allowDelete ? (
             <button onClick={() => handleDelete(listing._id)}>DELETE</button>
             ) : (
