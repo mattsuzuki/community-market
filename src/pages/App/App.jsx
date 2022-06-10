@@ -8,6 +8,8 @@ import Listings from '../Listings/Listings';
 import CreateListingPage from '../CreateListingPage/CreateListingPage';
 import NavBar from '../../components/NavBar/NavBar';
 import './App.css';
+import LoginForm from '../../components/LoginForm/LoginForm';
+import SignUpForm from '../../components/SignUpForm/SignUpForm';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
             <Route path="/listings" element={<Listings />} />
             <Route path="/newlisting" element={<CreateListingPage />} />
             <Route path="/auth" element={<AuthPage setUser={setUser} />} />
+            <Route path="/auth/login" element={<LoginForm setUser={setUser} />} />
+            <Route path="/auth/signup" element={<SignUpForm setUser={setUser} />} />
             <Route path="/profile/:id" element={<ProfilePage  />} />
           </Routes>
         </>    

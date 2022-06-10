@@ -13,9 +13,9 @@ export default function NavBar({ user, setUser }) {
 
   return (
     <nav>
-      <Link to="/auth">Login</Link>
+      <Link to="/auth/login">Login</Link>
       &nbsp; | &nbsp;
-      <Link to="/auth/">Sign up</Link>
+      <Link to="/auth/signup">Sign up</Link>
       &nbsp; | &nbsp;
       <Link to="/newlisting">Create Listing</Link>
       &nbsp; | &nbsp;
