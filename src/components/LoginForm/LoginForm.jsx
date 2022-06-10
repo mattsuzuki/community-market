@@ -18,13 +18,13 @@ export default function LoginForm({ setUser }) {
   async function handleSubmit(evt) {
     // Prevent form from being submitted to the server
     evt.preventDefault();
-    navigate('/listings')
     try {
       // The promise returned by the signUp service method 
       // will resolve to the user object included in the
       // payload of the JSON Web Token (JWT)
       const user = await usersService.login(credentials);
       setUser(user);
+      navigate('/newlisting')
     } catch {
       setError('Log In Failed - Try Again');
     }
