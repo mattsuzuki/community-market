@@ -83,8 +83,6 @@ code {
 
 .form-container {
   padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;
   width: 60%;
   margin: 0 auto;
@@ -126,7 +124,7 @@ input:focus {
 
 button, a.button {
   margin: 1vmin;
-  padding: 1vmin;
+  padding: 10px 20px;
   color: var(--white);
   background-color: rgba(102, 77, 191, 0.678);
   font-size: 2vmin;
@@ -134,7 +132,7 @@ button, a.button {
   text-decoration: none;
   text-align: center;
   border: .1vmin solid var(--tan-2);
-  border-radius: .5vmin;
+  border-radius: 3px;
   outline: none;
   cursor: pointer;
 }
