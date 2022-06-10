@@ -159,7 +159,6 @@ button[type="submit"] {
   margin: 1vmin 0 0;
 }
 
-.nav { background-color: grey;}
 
 form {
   padding: 3vmin;
@@ -167,5 +166,5 @@ form {
   border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;
   width: 70%;
-margin: 0 auto;
+  margin: 0 auto;
 }

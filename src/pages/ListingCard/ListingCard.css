@@ -1,9 +1,28 @@
-.container{
-
-
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
+.container {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(177, 239, 150, 0.594);
+  margin-bottom: 2%;
 }
 
+.container button {
+  background-color: #fff;
+  padding: 10px 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.container button:hover {
+    background-color: rgba(1, 12, 138, 0.637);
+}
+
+.container a {
+color:fuchsia
+}
+
+.container a:hover{
+    color:green;
+    text-decoration: underline;
+}
