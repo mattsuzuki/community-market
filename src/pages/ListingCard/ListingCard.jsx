@@ -3,7 +3,7 @@ import { deleteListing } from "../../utilities/listings-api";
 import "./ListingCard.css";
 
 
-export default function ListingCard({listing, handleDelete}) { 
+export default function ListingCard({listing, handleDelete, allowDelete}) { 
 
     return (
         <>
@@ -15,7 +15,11 @@ export default function ListingCard({listing, handleDelete}) {
         <h3>Description: {listing.description}</h3>
         <h3>Price: ${listing.price}</h3>
         <a href={`/profile/${listing.user}`}>Seller: {listing.user}</a>
-        <button onClick={() => handleDelete(listing._id)}>DELETE</button>
+        {allowDelete ? (
+            <button onClick={() => handleDelete(listing._id)}>DELETE</button>
+            ) : (
+                <></>
+            )};
         </div>
         </div>
         </div>

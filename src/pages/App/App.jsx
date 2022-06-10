@@ -22,7 +22,7 @@ function App() {
           <Routes>
             {/* Route components in here */}
             <Route path="/" element={<LandingPage />} />
-            <Route path="/listings" element={<Listings />} />
+            <Route path="/listings" element={<Listings user={user} />} />
             <Route path="/newlisting" element={<CreateListingPage />} />
             <Route path="/auth" element={<AuthPage setUser={setUser} />} />
             <Route path="/auth/login" element={<LoginForm setUser={setUser} />} />
