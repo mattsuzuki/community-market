@@ -6,7 +6,9 @@
     width: 70%;
     margin-left: 30;
     margin: 0 auto;
-    margin-top : 1%;
+    margin-top : 5%;
     padding: 5%;
+    background-color: rgba(190, 152, 152, 0.654);
+    border: 1px solid white;
     
 }

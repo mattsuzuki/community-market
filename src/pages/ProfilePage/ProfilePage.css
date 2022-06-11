@@ -1,5 +1,6 @@
 .profileDetails {
-    color: rgb(0, 0, 0);
+    color: white;
+    text-shadow: 3px 4px 4px rgb(3, 3, 3);
     border: 2px solid rgb(249, 249, 249);
     border-radius: 5px;
     background-color: rgba(190, 152, 152, 0.695);
@@ -8,8 +9,6 @@
     margin-right: 30%;
     margin: 0 auto;
     padding-top: 1%;
+    margin-top: 5%;
 }
 
-.sDetails h1 {
-    color: blue;
-}

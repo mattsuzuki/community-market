@@ -21,6 +21,10 @@
 .container button:hover {
     background-color: rgba(1, 12, 138, 0.637);
 }
+h1 {
+  color: white;
+  text-shadow: 3px 4px 4px rgb(3, 3, 3);
+}
 
 .container a {
   text-shadow: none;

@@ -98,8 +98,8 @@ form {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 1.25vmin;
-  color: rgb(0, 0, 0);
-
+  color: white;
+  text-shadow: 3px 4px 4px rgb(3, 3, 3);
   border-radius: 5px;
   background-color: rgba(199, 193, 193, 0.457);
 }
@@ -109,6 +109,8 @@ label {
   font-weight: bold;
   display: flex;
   align-items: center;
+  color: white;
+  text-shadow: 3px 4px 4px rgb(3, 3, 3);
 }
 
 input {
@@ -128,8 +130,8 @@ input:focus {
 button, a.button {
   margin: 1vmin;
   padding: 10px 20px;
-  color: var(--white);
-  background-color: rgba(102, 77, 191, 0.678);
+  color: white;
+  background-color: rgba(190, 152, 152, 0.884);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -152,7 +154,7 @@ button.btn-xs {
 
 button:disabled, form:invalid button[type="submit"] {
   cursor: not-allowed;
-  background-color: var(--tan-4);
+  background-color: rgba(190, 152, 152, 0.884);
 }
 
 button[type="submit"] {
