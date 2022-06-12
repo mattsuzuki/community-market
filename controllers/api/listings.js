@@ -7,7 +7,7 @@ module.exports = {
 };
 
 async function getAll(req, res) {
-  const listings = await listing.find();
+  const listings = await listing.find().sort("-createdAt");
   res.json(listings);
 }
 
