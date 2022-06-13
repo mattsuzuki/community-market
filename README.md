@@ -1,7 +1,6 @@
 <div align="center">
-   
    <h1> Community-Market :notes:</h1>
-   <h3><a href="https://community-market-exchange.herokuapp.com/">Visit The Community Market </a></h3>
+   <h3><a href="https://community-market-exchange.herokuapp.com/">Visit Here</a></h3>
    <h5> Matthew Suzuki</h5>                             
    
 <a href="https://www.linkedin.com/in/mattsuzuki/" target="_blank">
@@ -21,10 +20,10 @@
 
 | Description | Screenshot |
 |------------ | ------------|
-| <h3 align="center">Landing Page</h3> | <img src="https://imgur.com/gallery/5S86MFh" width="700"/> |
-| <h3 align="center">Sign Up Form</h3> | <img src="https://imgur.com/gallery/eTBGIiy" width="700"/> |
-| <h3 align="center">Login Page</h3> | <img src="https://imgur.com/gallery/yVSTJ7J" width="700"/> |
-| <h3 align="center">Create a Listing</h3> | <img src="https://imgur.com/gallery/UO0HuFq" width="700"/> |
+| <h3 align="center">Landing Page</h3> | <img src="https://i.imgur.com/E2ioExi.jpeg" width="700"/> |
+| <h3 align="center">Sign Up Form</h3> | <img src="https://i.imgur.com/bmL9bGD.jpeg" width="700"/> |
+| <h3 align="center">Login Page</h3> | <img src="https://i.imgur.com/FonJztP.jpeg" width="700"/> |
+| <h3 align="center">Create a Listing</h3> | <img src="https://i.imgur.com/d407Y8e.jpeg" width="700"/> |
 | <h3 align="center">Listings Index</h3> | <img src="https://imgur.com/gallery/tsah0zS" width="700"/> |
 | <h3 align="center">Seller Details</h3> | <img src="https://imgur.com/gallery/3ldgTeW" width="700"/> |
 
@@ -43,6 +42,7 @@
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 <h2> :fire: Getting Started </h2>
