@@ -59,5 +59,5 @@
 ## :fast_forward: Future Features   
 
 - [ ] Mobile-friendly version
-- [ ] Images for Amenities 
+- [ ] Live Messaging using Sockets.io
 - [ ] Aesthetic upgrades
