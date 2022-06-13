@@ -12,6 +12,8 @@
 <h1>:pencil: Description</h1>
 <p>Community Market is a peer to peer online community market which enables users to buy or sell any item or service they desire. Community Market utilizes a minimalistic aproach to enable power to the user to contact the seller in any way they desire.  </p>
 
+   <h3><a href="https://trello.com/b/U5ZV9P7I/community-marketplace">Trello Board</a></h3>
+
 
 <details>
 <summary> :gear: Functionality</summary>
