@@ -1,6 +1,6 @@
 <div align="center">
    <h1> Community-Market :notes:</h1>
-   <h3><a href="https://community-market-exchange.herokuapp.com/">Visit Here</a></h3>
+   <h3><a href="https://community-market-exchange.herokuapp.com/">Visit The Community Market </a></h3>
    <h5> Matthew Suzuki</h5>                             
    
 <a href="https://www.linkedin.com/in/mattsuzuki/" target="_blank">
