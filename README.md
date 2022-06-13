@@ -60,6 +60,7 @@
 
 ## :fast_forward: Future Features   
 
+- [ ] Search Bar for looking up items or servies
 - [ ] Mobile-friendly version
 - [ ] Ability to upload images
 - [ ] Ability to rate the seller and comment on transactions
