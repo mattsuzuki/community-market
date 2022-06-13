@@ -61,5 +61,7 @@
 ## :fast_forward: Future Features   
 
 - [ ] Mobile-friendly version
+- [ ] Ability to upload images
+- [ ] Ability to rate the seller and comment on transactions
 - [ ] Live Messaging using Sockets.io
 - [ ] Aesthetic upgrades
