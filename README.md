@@ -25,7 +25,7 @@
 | <h3 align="center">Login Page</h3> | <img src="https://i.imgur.com/FonJztP.jpeg" width="700"/> |
 | <h3 align="center">Create a Listing</h3> | <img src="https://i.imgur.com/d407Y8e.jpeg" width="700"/> |
 | <h3 align="center">Listings Index</h3> | <img src="https://i.imgur.com/mWoGXAf.png" width="700"/> |
-| <h3 align="center">Seller Details</h3> | <img src="https://imgur.com/gallery/3ldgTeW" width="700"/> |
+| <h3 align="center">Seller Details</h3> | <img src="https://i.imgur.com/vwBgo2h.png" width="700"/> |
 
 
 </details>
