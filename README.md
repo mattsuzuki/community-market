@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>:musical_score: Community-Market :notes:</h1>
+   <h1> Community-Market :notes:</h1>
    <h3><a href="https://community-market-exchange.herokuapp.com/">Visit Here</a></h3>
    <h5> Matthew Suzuki</h5>                             
    

@@ -157,9 +157,12 @@ button:disabled, form:invalid button[type="submit"] {
   background-color: rgba(190, 152, 152, 0.884);
 }
 
+
+
 button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
+  background-color: rgba(190, 152, 152, 0.581);
 }
 
 
